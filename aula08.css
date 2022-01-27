@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body{
+    height: 100%;
+    background-color: black;
+}
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin:30px auto;
+    text-align: center;
+    
+}
+
+form fieldset{
+
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+}
+
+form legend{
+    text-align:left;
+    font-size: 17px;
+    color:rgb(130,130,130);
+}
+
+form input[type=text]{
+    font-family: tahoma;
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+
+
+form input[type=text]:focus, form select:focus, form textarea:focus{
+    outline: 0;
+    cursor: pointer;
+}
+
+
+form select{
+    font-family: tahoma;
+    width: 80%;
+    padding: 10px 10px;
+    margin-top: 30px;
+    display: inline-block;
+    color: rgb(130,130,130);
+    border: 1px solid #ccc; 
+    cursor: pointer;
+}
+
+/*
+form select option:nth-of-type(5){
+    color:red;
+}
+*/
+
+form h2{
+    margin-left: 40px;
+    margin-top: 30px;
+    color: white;
+    text-align: left;
+    
+
+}
+
+.input{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 17px;
+    text-align: center;
+    margin-left: 40px;
+    
+    
+}
+
+.input span{
+    margin: 0 auto;
+    padding: 0px 15px;
+    font-size: 16x;
+    color: rgb(130,130,130);
+}
+
+form input[type=checkbox], input[type=radio]{
+    cursor: pointer;
+}
+
+
+form textarea{
+
+    margin-top: 30px;
+    width: 80%;
+    padding: 5px 10px;
+    border: 1px soli #ccc;
+    resize: none;
+    font-family: tahoma;
+    
+
+}
+
+
+form input[type=submit]{
+    margin-top: 30px;
+    border: 2px solid rgb(150,150,150);
+    background-color:rgb(100,100,100);
+    cursor:pointer;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
